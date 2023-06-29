@@ -12,7 +12,7 @@ axios.get("https://restcountries.com/v3.1/all").then((res) => {
             </p>
             <p class="card-text" style="font-size: 14px">Region: <span class="region">${element.region}</span></p>
             <p class="card-text" style="font-size: 14px">Capital: ${element.capital}</p>
-            <a href="/Details/details.html" id="${element.name.common}" class="shadow btn btn-dark w-100">Details</a>
+            <a href="https://rest-countries-9n1j.vercel.app/" id="${element.name.common}" class="shadow btn btn-dark w-100">Details</a>
         </div>
     </div>
         `
